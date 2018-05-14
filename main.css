@@ -1,0 +1,64 @@
+body {
+    width: 960px;
+    margin: auto;
+}
+
+svg {
+    border: 1px solid lightgrey;
+}
+
+line {
+    stroke: black;
+    stroke-width: 0.5px;
+}
+
+text {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+text.tick {
+    /* display: none; */
+    /* display: block; */
+}
+
+text.tick.show {
+    display: unset;
+}
+
+rect.axis {
+    /* stroke: black;
+    stroke-width: 1px; */
+    fill: transparent;
+    cursor: crosshair;
+}
+
+path {
+    stroke: transparent;
+    stroke-width: 1px;
+    fill: none;
+    stroke-opacity: 0.7;
+}
+
+path.background {
+    stroke: lightgrey;
+}
+
+path.foreground {
+    stroke: steelblue;
+    stroke-opacity: 1;
+}
+
+rect.select {
+    fill: grey;
+    fill-opacity: 0.5;
+    cursor: move;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+line.select {
+    stroke: transparent;
+    stroke-width: 4px;
+    cursor: ns-resize;
+}
