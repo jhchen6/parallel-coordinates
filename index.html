@@ -3,21 +3,22 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Parallel Coordinates</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.js"></script>
-  <!-- <script src="https://raw.githubusercontent.com/evanplaice/jquery-csv/master/src/jquery.csv.min.js"></script> -->
-  <script src="main.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 
 <body>
   <h1>Parallel Coordinates</h1>
-  <div id="log" style="position: absolute;top: 10px" height="300"></div>
-  <svg width="960" height="500" overflow="visible"></svg>
-  <p id="test"></p>
+  <svg width="960" height="500"></svg>
+  <p>Drag on axes to apply multi-criteria selection.</p>
+  <p>This is a coding practice following
+    <a href="https://bost.ocks.org/mike/">Mike Bostock</a>'s
+    <a href="https://bl.ocks.org/mbostock/1341021">Parallel Coordinates</a> example.
+  </p>
+  <p> Data from USDA (I forgot the exact URI... It's like the data used in
+    <a href="http://bl.ocks.org/syntagmatic/raw/3150059/">this</a> example).</p>
+  <script src="main.js"></script>
 </body>
 
 </html>

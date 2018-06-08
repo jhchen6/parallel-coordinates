@@ -1,7 +1,5 @@
 # parallel-coordinates
-coding practice.
 
-open index.html with Microsoft Edge please...
+This is a coding practice following [Mike Bostock](https://bost.ocks.org/mike/)'s [Parallel Coordinates](https://bl.ocks.org/mbostock/1341021) example.
 
-in Chrome using the `$.get()` method to get local file triggers cross origin error. 
-this issue is left for a future me to tackle with -_-
+Data from USDA (I forgot the exact URI... It's like the data used in [this](http://bl.ocks.org/syntagmatic/raw/3150059/) example).
